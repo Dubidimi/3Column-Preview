@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+/* Desktop view */
+
+@media screen and (min-width:440px) {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container div {
+    padding: 5rem;
+    height: 70vh;
+}
+.container a {
+    margin-top: 7rem;
+    font-weight: 500;
+    border: 1px solid white;
+    font-family: Lexend Deca;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.container a:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.25s ease-out;
+}
+.container h1 {
+    font-family: Big Shoulders Display;
+    font-size: 3rem;
+}
+.container p {
+    font-family: Lexend Deca;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 7rem;
+}
+.sedans {
+    background-color: #e28525;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.sedans a {
+    color: #e28525;
+}
+.suvs {
+    background-color: #016972;
+}
+.suvs a {
+    color: #016972;
+}
+.luxury {
+    background-color: #00403f;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+.luxury a {
+    color: #00403f;
+}
+.luxury p {
+    margin-bottom: 9rem;
+}
+}
+
+/* Mobile view */
+
+@media screen and (max-width:440px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .container div {
+        padding: 3rem;
+        height: 52vh;
+    }
+
+    .container a {
+        font-weight: 500;
+        border: 1px solid white;
+        font-family: Lexend Deca;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+    }
+
+    .container a:hover {
+        background-color: transparent;
+        color: white;
+        transition: all 0.25s ease-out;
+    }
+
+    .container h1 {
+        font-family: Big Shoulders Display;
+        font-size: 3rem;
+    }
+
+    .container p {
+        font-family: Lexend Deca;
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 2;
+        margin-bottom: 7rem;
+    }
+
+    .sedans {
+        background-color: #e28525;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+    }
+
+    .sedans a {
+        color: #e28525;
+    }
+
+    .suvs {
+        background-color: #016972;
+    }
+
+    .suvs a {
+        color: #016972;
+    }
+
+    .luxury {
+        background-color: #00403f;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+
+    .luxury a {
+        color: #00403f;
+    }
+}
